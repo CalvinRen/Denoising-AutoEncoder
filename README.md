@@ -35,32 +35,32 @@
 
 ```
 ─── Denoising_AE/
-    └── data/
+    └── data/ # 数据集
         ├── MNIST
-    └── checkpoints/
+    └── checkpoints/ # 预训练模型
         └── DAE.pth
         └── DCAE.pth
         └── VAE.pth
-    └── models/
+    └── models/ # 网络模型
     	└── DAE.py
         └── DCAE.py
         └── VAE.py
-    └── results/
+    └── results/ # 实验结果
         └── VAE_test/
             ├── origin.png
             ├── noisy.png
             ├── reconstructed.png
         └── DAE_test
         └── DCAE_test
-    └── scripts/
+    └── scripts/ # 训练测试脚本
         └── VAE/
             ├── train.sh
             ├── test.sh
         └── DAE
         └── DCAE
-    └── train.py
-    └── predict.py
-    └── scripts.ipynb
+    └── train.py # 训练代码
+    └── predict.py # 测试代码
+    └── scripts.ipynb 
 ```
 
 ## 3. 代码运行
